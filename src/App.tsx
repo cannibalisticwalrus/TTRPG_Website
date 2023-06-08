@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MainImage from './Files/Teor.png';
 import "./App.css";
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
       </div>
       <div
         id="hero"
-        className="mx-44 my-20 flex flex-row gap-20 text-emerald-200"
+        className="mx-44 my-20 flex lg:flex-row gap-20 text-emerald-200 flex-col"
       >
         <div className="bg-emerald-850">
-          <img src="https://picsum.photos/600/600" alt="TEST"></img>
+          <img src={MainImage} alt="TEST"></img>
         </div>
         <div className="flex flex-col justify-end">
           <div className="PinkTextShadow text-5xl font-bold">
